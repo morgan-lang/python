@@ -1,17 +1,4 @@
 {'Email': 'bsmith@bsmith.com', 'Name': 'Bob Smith', 'ID': '1'}
 {'Email': 'sjones@sjones.com', 'Name': 'Sue Jones', 'ID': '2'}
 {'Email': 'jjones@jjones.com', 'Name': 'Joe Jones', 'ID': '3'}
-{'Email': 'asdjasdjasdj', 'Name': 'hasdhashd', 'ID': 4}
-{'Email': 'dfdsfdsf', 'Name': 'ghjghhgj', 'ID': 5}
-{'Email': 'bsmith@bsmith.com', 'ID': '1', 'Name': 'Bob Smith'}
-{'Email': 'sjones@sjones.com', 'ID': '2', 'Name': 'Sue Jones'}
-{'Email': 'jjones@jjones.com', 'ID': '3', 'Name': 'Joe Jones'}
-{'Email': 'jsjjjdj@jsadjd.com', 'ID': 4, 'Name': 'hasdhhh'}
-{'Email': 'bsmith@bsmith.com', 'ID': '1', 'Name': 'Bob Smith'}
-{'Email': 'sjones@sjones.com', 'ID': '2', 'Name': 'Sue Jones'}
-{'Email': 'jjones@jjones.com', 'ID': '3', 'Name': 'Joe Jones'}
-{'Email': 'sdfssdf', 'ID': 4, 'Name': 'sfdsdds'}
-{'ID': '1', 'Email': 'bsmith@bsmith.com', 'Name': 'Bob Smith'}
-{'ID': '2', 'Email': 'sjones@sjones.com', 'Name': 'Sue Jones'}
-{'ID': '3', 'Email': 'jjones@jjones.com', 'Name': 'Joe Jones'}
-{'ID': 5, 'Email': 'sdfsdfsdf', 'Name': 'sdfsdf'}
+

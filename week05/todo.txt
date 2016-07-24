@@ -1,2 +1,2 @@
-Write code,high
-Pay Bills,low
+wash dishes,low
+code python,high

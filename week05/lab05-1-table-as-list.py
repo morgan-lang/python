@@ -35,6 +35,5 @@ if(userSave.lower() == "y"):
         print(item)
     input("Enter to exit: ")
 
-
 else:
     input("Data not saved. Enter to exit.")
