@@ -1,3 +1,11 @@
+"""
+Program name: pickle-demo-week07.py
+Program function: demonstrates a basic understanding of pickling, unpickling, and error handling.
+Author: Morgan Lang
+Date modified: 08/02/2016
+
+"""
+
 import pickle
 
 # the input function:
@@ -5,7 +13,7 @@ def pickleinput():
     print("Let's pickle a list of stuff we like.")
     # we'll use a try except loop to catch input errors like failing to use an integer to rate items:
     try:
-        # our variables are lists that are constructed from user data:
+        # our variables are lists that are constructed from user inputs:
         movie = [str(input("What's your favorite movie? ")), int(input("Rating (1-10): "))]
         band = [str(input("What's your favorite band? ")), int(input("Rating (1-10): "))]
         book = [str(input("What's your favorite book? ")), int(input("Rating (1-10): "))]
@@ -19,7 +27,7 @@ def pickleinput():
         pickle.dump(book, writedatastream)
         # closing the file:
         writedatastream.close()
-    # a simple exception rule that will show the Python error:
+    # a simple exception rule that will show the error issued by the Python interpreter:
     except Exception as e:
         print("Oh, dear. I'm terribly sorry, but the following error occurred: \n", e.__str__())
 
@@ -37,7 +45,7 @@ def pickleoutput():
         print(readmovie)
         print(readband)
         print(readbook)
-    # again, a simple exception rule that will show the Python error:
+    # again, a simple exception rule that will show the Python interpreter error:
     except Exception as e:
         print("Oh, dear. I'm terribly sorry, but the following error occurred: \n", e.__str__())
         input("Press the 'enter' key to exit. ")

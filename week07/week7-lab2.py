@@ -3,18 +3,21 @@
 # data
 objFile = None
 strUserInput = None
+strUserInput2 = None
 
 # processing
 def writeProductUserInput(theFile):
     print("Hello and welcome to the Productizer. \n"
           "Type 'exit' to exit the program.")
     while True:
-        strUserInput = input("Enter product ID, description, and price using the following format:\n"
-                             "1,product name,$25: ")
+        strUserInput = input("Enter a thing: ")
+        strUserInput2 = input("Enter another thing: ")
         if (strUserInput.lower() == "exit"):
             break
+        elif (strUserInput2.lower()) == "exit":
+            break
         else:
-            theFile.write(strUserInput + "\n")
+            theFile.write(strUserInput + strUserInput2 + "\n")
 
 def ReadAllFileData(theFile, Message="Contents of File"):
     print(Message)
